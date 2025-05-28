@@ -1,0 +1,79 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f4f9ff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+.cart-item, .form input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.bg-calm-blue {
+  background: linear-gradient(to right, #cfd9df, #e2ebf0); /* blue-gray */
+}
+
+
+.bg-ice-lavender {
+  background: linear-gradient(to right, #9e8dae, #82a3c4); /* lavender to blue */
+}
+
+
+
+
+
+.bg-lavender-mist {
+  background: linear-gradient(to right, #d3cce3, #e9e4f0); /* soft lavender */
+}
+
+
+.content-box {
+  max-width: 600px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
